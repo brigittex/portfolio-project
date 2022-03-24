@@ -29,6 +29,10 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+footer {
+  text-align: center;
+  opacity: 0.7;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
