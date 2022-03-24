@@ -1,6 +1,7 @@
 :root {
-  --secondary-color: #f1eefb;
-  --branding-color: #6c63ff;
+  --branding-color: #113f67;
+  --secondary-color: rgb(242, 242, 255);
+  --hover-color: #38598b;
   --heading-font-family: "Courgette", cursive;
   --default-font-family: "Baloo 2", cursive;
 }
@@ -16,6 +17,7 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: var(--branding-color);
 }
 
 h1 {
@@ -49,7 +51,7 @@ footer {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 26px;
-  color: #272142;
+  color: black;
 }
 
 .btn-branding {
@@ -68,6 +70,12 @@ footer {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover,
+.btn-branding-outline:hover {
+  background: var(--hover-color);
+  color: white;
 }
 
 .project-description {
