@@ -39,6 +39,35 @@ img {
   border-radius: 15px;
 }
 
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--hover-color);
+  font-weight: 900;
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -74,7 +103,6 @@ img {
   font-size: 24px;
   font-family: var(--default-font-family);
 }
-
 .content p {
   font-size: 14px;
 }
