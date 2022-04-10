@@ -100,6 +100,8 @@ nav a:hover {
 }
 .content p {
   font-size: 14px;
+  line-height: 1.5;
+  margin-top: 20px;
 }
 
 .btn-branding {
@@ -120,8 +122,18 @@ nav a:hover {
   padding: 15px 30px;
 }
 
+.btn-launch {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  padding: 5px 20px;
+  display: block;
+}
+
 .btn-branding:hover,
-.btn-branding-outline:hover {
+.btn-branding-outline:hover,
+.btn-launch:hover {
   background: var(--hover-color);
   color: white;
 }
@@ -167,6 +179,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
+}
+
+.shecodes {
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
