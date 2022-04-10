@@ -19,21 +19,15 @@ h6 {
   font-weight: bold;
   color: var(--branding-color);
 }
-
 h1 {
   font-size: 96px;
 }
-
 h2 {
   font-size: 64px;
 }
 p {
   font-size: 16px;
   line-height: 30px;
-}
-footer {
-  text-align: center;
-  opacity: 0.7;
 }
 img {
   border-radius: 15px;
@@ -133,6 +127,40 @@ nav a:hover {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.footer-2 {
+  text-align: center;
+  opacity: 0.7;
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+footer .social-links a {
+  margin: 0 30px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 991px) {
