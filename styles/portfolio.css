@@ -182,7 +182,8 @@ footer .social-links a:hover {
 }
 
 .shecodes {
-  text-decoration: none;
+  color: var(--branding-color);
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
