@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <meta
+      name="description"
+      content="Brigitte is an experienced front-end developer based in Ottawa, Canada. She has completed projects with HTML, CSS, Javascript, Visual Studio Code, API, Bootstrap, GitHub, Hosting, React, Flexbox, SEO, Responsive."
+    />
+    <title>Front-End Developer - Brigitte Giguère</title>
 
     <!--Importing Bootstrap CSS-->
     <link
@@ -40,18 +44,20 @@
         <a href="/index.html">
           <img
             src="images/logo.png"
-            alt="SheCodes logo small"
+            alt="Brigitte Giguère Logo"
             class="logo d-none d-md-block" />
           <img
             src="images/logo-small.jpg"
-            alt="SheCodes logo"
+            alt="Brigitte Giguère Logo - Small"
             class="logo d-block d-md-none"
         /></a>
         <ul>
-          <li class="active"><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active">
+            <a href="/index.html" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About Brigitte">About</a></li>
+          <li><a href="/work.html" title="Brigitte's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Brigitte">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -60,7 +66,14 @@
       <p>👋🏻 Hi, I am</p>
       <h1 class="m-3">Brigitte Giguère</h1>
       <h2 class="mb-5">Front-end developer based in Ottawa</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a
+          href="/contact.html"
+          title="Contact Brigitte"
+          class="btn btn-branding"
+          >Contact me</a
+        >
+      </div>
     </div>
 
     <p class="text-center m-5">Featured Projects</p>
@@ -76,7 +89,12 @@
               eeeeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeee eeeeee
               eeeeeee eeeee eeeeeee eeeeeeeeeee eeeeeee eeeeeeeeeeee eeeeeeee
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="Brigitte's Work"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -88,7 +106,12 @@
               eeeeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeee eeeeee
               eeeeeee eeeee eeeeeee eeeeeeeeeee eeeeeee eeeeeeeeeeee eeeeeeee
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="Brigitte's Work"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -106,7 +129,12 @@
               eeeeeeeeeeeeeeee eeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeeeeeee eeeeee
               eeeeeee eeeee eeeeeee eeeeeeeeeee eeeeeee eeeeeeeeeeee eeeeeeee
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              title="Brigitte's Work"
+              class="btn btn-branding-outline"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -122,41 +150,64 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              title="Contact Brigitte"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
           </div>
         </div>
 
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:brigitte.giguere.x@gmail.com" class="email-link"
+          <a
+            href="mailto:brigitte.giguere.x@gmail.com"
+            title="Email Brigitte"
+            class="email-link"
             >brigitte.giguere.x@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/brigittex" target="_blank"
+          <a
+            href="https://www.github.com/brigittex"
+            title="See Brigitte's GitHub Profile"
+            target="_blank"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/brigitte.giguere.3/" target="_blank"
+          <a
+            href="https://www.facebook.com/brigitte.giguere.3/"
+            title="See Brigitte's Facebook Profile"
+            target="_blank"
             ><i class="fab fa-facebook"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/brigitte-gigu%C3%A8re-p-eng-09553625/"
+            title="See Brigitte's LinkedIn Profile"
             target="_blank"
             ><i class="fab fa-linkedin"></i
           ></a>
         </div>
+
+        <p class="text-center text-muted mt-5 mb-0">
+          ✌🏻 This project was coded by Brigitte Giguère.
+        </p>
+        <p class="text-center text-muted">
+          Open-source code on
+          <a
+            href="https://github.com/brigittex/portfolio-project"
+            title="GitHub Portfolio Project"
+            target="_blank"
+            >Github</a
+          >
+          and hosted on
+          <a
+            href="https://luminous-conkies-111ea7.netlify.app/"
+            title="Netlify Hosting of Portfolio Project"
+            target="_blank"
+            >Netlify</a
+          >.
+        </p>
       </footer>
     </div>
-
-    <hr />
-    <footer class="footer-2">
-      Open-source code on
-      <a href="https://github.com/brigittex/portfolio-project" target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://luminous-conkies-111ea7.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
   </body>
 </html>
